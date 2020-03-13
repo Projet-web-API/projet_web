@@ -79,17 +79,11 @@
       <div class="col-lg-4" :class="{'text-right': isRTL}">
         <card type="chart">
           <template slot="header">
-            <h5 class="card-category">{{$t('dashboard.completedTasks')}}</h5>
-            <h3 class="card-title"><i class="tim-icons icon-send text-success "></i> 12,100K</h3>
+            <h5 class="card-category">{{$t('dashboard.twitter')}}</h5>
           </template>
-          <div class="chart-area">
-            <line-chart style="height: 100%"
-                        chart-id="green-line-chart"
-                        :chart-data="greenLineChart.chartData"
-                        :gradient-stops="greenLineChart.gradientStops"
-                        :extra-options="greenLineChart.extraOptions">
-            </line-chart>
-          </div>
+
+          <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/QuipoV/lists/test?ref_src=twsrc%5Etfw">A Twitter List by QuipoV</a> 
+          <twitter-feed></twitter-feed>
         </card>
       </div>
     </div>
