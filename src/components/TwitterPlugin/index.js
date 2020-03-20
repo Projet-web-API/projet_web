@@ -1,13 +1,7 @@
-<template>
-  <div v-if="installed"><slot
-    name="loading"
-    v-if="!ready"/><div v-show="ready"><slot/></div></div><div v-else><slot name="loading"/></div>
-</template>
-
-<script>
 import VueScript2 from 'vue-script2'
 export default {
-    name: "twitter",
+    name
+  template: '<div v-if="installed"><slot name="loading" v-if="!ready"/><div v-show="ready"><slot/></div></div><div v-else><slot name="loading"/></div>',
   data () {
     return {
       installed: !!window.twttr,
@@ -52,4 +46,3 @@ export default {
     }
   }
 }
-</script>

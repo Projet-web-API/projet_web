@@ -13,7 +13,8 @@
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
-import RouterPrefetch from 'vue-router-prefetch'
+import RouterPrefetch from 'vue-router-prefetch';
+import twitter from "vue-twitter";
 import App from "./App";
 // TIP: change to import router from "./router/starterRouter"; to start with a clean layout
 import router from "./router/index";
@@ -24,6 +25,7 @@ import './registerServiceWorker'
 Vue.use(BlackDashboard);
 Vue.use(VueRouter);
 Vue.use(RouterPrefetch);
+Vue.use(twitter);
 
 /* eslint-disable no-new */
 new Vue({

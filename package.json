@@ -21,6 +21,7 @@
     "vue-router": "^3.0.2",
     "vue-router-prefetch": "^1.4.0",
     "vue-tweet-embed": "^2.4.0",
+    "vue-twitter": "^0.1.0",
     "vue2-transitions": "^0.2.3"
   },
   "devDependencies": {
