@@ -81,7 +81,7 @@
           <template slot="header">
             <h5 class="card-category">{{$t('dashboard.twitter')}}</h5>
               <twitter>
-                <a class="twitter-timeline" href="https://twitter.com/QuipoV/lists/test?ref_src=twsrc%5Etfw">A Twitter List by QuipoV</a> 
+                <a class="twitter-timeline" data-height="300" data-theme="dark" href="https://twitter.com/QuipoV/lists/vos-news-le-mans?ref_src=twsrc%5Etfw">A Twitter List by QuipoV</a>  
               </twitter>
           </template>
         </card>
