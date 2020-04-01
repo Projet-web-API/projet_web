@@ -1,11 +1,13 @@
 {
   "dashboard": {
     "completedTasks": "Completed Tasks",
-    "dailySales": "Daily Sales",
+    "dailySales": "Hello",
     "performance": "Performance",
     "simpleTable": "Simple Table",
     "totalShipments": "Total Shipments",
     "twitter": "Twitter",
+    "language-selector": "Choose a language",
+    "city-selector": "Choose a city",
     "chartCategories": [
       "Accounts",
       "Purchases",

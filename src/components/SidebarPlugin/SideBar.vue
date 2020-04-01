@@ -23,8 +23,16 @@
         </a>
       </div>
       <slot>
+        <select class="btn dropdown-toggle" name="pets" id="language-select" style="background-color: blue">
+          <option selected value="">{{$t('dashboard.language-selector')}}</option>
+          <option value="Fracais">Français</option>
+          <option value="English">English</option>
+          <option value="Espanol">Español</option>
+        </select>
+      </slot>
+      <slot>
         <select class="btn dropdown-toggle" name="pets" id="city-select" style="background-color: blue">
-          <option selected value="">--Choisissez une ville--</option>
+          <option selected value="">{{$t('dashboard.city-selector')}}</option>
           <option value="LeMans" >Le Mans</option>
           <option value="Paris">Paris</option>
           <option value="Londres">Londres</option>
@@ -137,6 +145,6 @@
       this.$watch("$route", this.findActiveLink, {
         immediate: true
       });
-    }
-  };
+    },
+  }
 </script>
